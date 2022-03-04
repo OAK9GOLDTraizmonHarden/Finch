@@ -1078,7 +1078,7 @@ class Finch(Microbit):
     # class to return values within the Finch reference frame.
 
     def getAcceleration(self):
-        """Gives the acceleration of X,Y,Z in m/sec2, relative
+        """Gives the acceleration of X,Y,Z in m/sec2, relatives
         to the Finch's position."""
 
         return self._getXYZvalues("finchAccel", False)
